@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+var b = new Array(1,2,3,4,5,6,7,8,9,10);
+var a = [];
+var c = [];
+for ( i = 0; i < b.length; i++) {
+    if (b[i] % 2 == 0) {
+        c.push(b[i]);
+    } else if(b[i]%2==1) {
+
+        a.push(b[i]);
+}
+}
+b = c.concat(a)
+document.write(b)
+console.log(c);
+</script>
+</body>
+</html>

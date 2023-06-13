@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var arr = [2,5,7,9,4,2,6];
+  var v = +prompt("type here");
+  var value;
+  var containsYn = false
+  for (let i = 0; i < arr.length;i++) {
+      if (v === arr[i]) {
+          containsYn = true
+          value = arr[i]
+      }
+  }
+  if (containsYn === true){
+         alert(arr.indexOf(v) +" V is in the array");
+      } else {
+          alert("V is not in the array")
+      }
+
+
+</script>
+</body>
+</html>
